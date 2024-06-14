@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style> 
+	<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "images/s1.jpg"; 
+path[1] = " images/s2.jpg";
+path[2] = "images/s3.jpg"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",3000); 
+} 
+window.onload=swapImage; 
+</script> 
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PARKS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PARKS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+
+
+
+</div>
+
+<!-- Page content -->
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+      <img height="200" name="slide" src="images/s1.jpg" width="400" />
+	  <h2 class="w3-wide"><strong><em>GREEN IS THE NEW BLACK</em></strong></h2>
+    <p class="w3-opacity"><i>&nbsp;</i></p>
+    <p class="w3-justify">Greetings to Green is the new black a guide through this city to all things green in this vibrant setting. Whether you are an ordinary citizen of Manchester or a tourist who wants to take a rest from the noisy city, we will familiarize you with a rich variety of parks in Manchester through our detailed web site. Playrooms with colors stimulating the senses, corridors that are calm, lush trails, as well as century-old beautiful gardens. What a slice of green, fresh air every park gives to each one of us – be it a child or an old man, a woman or a man. Come join us celebrate nature in Manchester and find out which nature’s destination is your best place to be for nature ‘s relaxation</p>
+    
+  </div>
+	<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+<h1>Heaton Park</h1>
+		     <img src="images/heatonhall.jpg" alt="Heaton Hall" width="70%" height="70%">  
+	  <p>Boasting of numerous activities that families can engage in, it is the largest park in Manchester and the largest municipal park across Europe. For car access, the SatNav postcode is M25 2SW. MetroLink Trams and Buses are available to get to Heaton Park. Located in Manchester, Heaton Park is possibly the best place to visit for that economical family day out in the North West. It provides ample space, stated greenery and two play areas especially meant for kids besides a host of events, activities, family outings and games along with sports.&nbsp; </p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.2387276785142!2d-2.242363647222823!3d53.536847579014996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb006264fc2c9%3A0x2581bc3b9853b122!2sHeaton%20Park!5e0!3m2!1sen!2suk!4v1718281974534!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+<h1>Plattsfield Park</h1>
+ <img src="images/platt-fields-park-manchester-by-denise-tench.jpg" width="40%" height="40%">
+	  <p>As a well-developed public park situated in Manchester, Platt Fields Park is blessed with plenty of facilities and services appealing to people of all ages. Here is an overview of the characteristic features of the park with aims at recreation and relaxation:Another feature is the ornamental lake, which has boats for rent for pedal boating is among the tourist attractions. The park also has good tarred pedestrian and cycling lanes as well as the sports facilities that include tennis courts, skate parks, and children’s playgrounds. Also, Platt Fields Park has events and festivals planned for the entire community which makes people so active in this area. It has beautifully designed ornamental gardens, magnificent and historic architecture as well as a diverse wildlife and is a is a much valued public park in the midst of Manchester.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.1414828091797!2d-2.2274928228018065!3d53.448057072319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb22512812901%3A0x47d4881bf1f5d0db!2sPlatt%20Fields%20Park!5e0!3m2!1sen!2suk!4v1718358637671!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+<h1>Birchfields Park</h1>
+<img src="images/birchfieldspk.jpg">
+	  <p>As a unique u rban park, Birchfields Park is located in Manchester with well-maintained beautiful environment, community assets. As for the amenities, this park contains several well-trimmed open fields for sports and recreation and for children’s playgrounds and picnicking. Well-equipped children’s recreation facilities such as modern playgrounds are found within it. For exercising enthusiasts, one can find installed outdoor gym sections as well as jogging around the park. Also, there are well-organized flowers beds and many local trees where people can relax and enjoy the beauties of nature if they want. Year round the park is used to hold local events and activities hence CNS is an important recreational point in Manchester.</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.9586075364145!2d-2.214396623261981!3d53.451326172319945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb22b63edf69f%3A0xbc5cb571fa776ae2!2sBirchfields%20Park!5e0!3m2!1sen!2suk!4v1718359249765!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+<!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+	  <h2 class="w3-wide w3-center">You can leave a comment or message below</h2>
+<form>
+<label for="email">Your email:</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="message">Message:</label><br>
+<textarea type="text" id="message" name="message" rows="7" cols="30"></textarea><br>
+<br>
+<input type="submit" value="Send">
+<input type="reset" value="Clear">
+  
+  </div>
+ </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-red w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
